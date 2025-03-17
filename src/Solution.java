@@ -9,13 +9,17 @@ public class Solution {
     static String toCamelCase(String s){
         String letras[] = s.split("");
         String texto = "";
-
-        for (int i = 0 ; i < letras.length; i++){
-            if(letras[i].equals("-") || letras[i].equals("_")){
-                texto = texto + letras[i+1].toUpperCase();
-                i++;
+        boolean mayus = false;
+        for (String str: letras){
+            if(str.equals("-") || str.equals("_")){
+                mayus = true;
             }else{
-                texto = texto + letras[i];
+                if(mayus){
+                    texto = texto + str.toUpperCase();
+                    mayus = false;
+                }else{
+                    texto = texto + str;
+                }
             }
         }
         return texto;
