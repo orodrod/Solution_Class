@@ -20,3 +20,4 @@ Solution Class
 
 1. Omar Rodríguez Rodríguez (solución)
 2. Codewars (kata)
+3. pa los jajas
