@@ -2,7 +2,7 @@ Solution Class
 ===
 
 ## Descripción
-- Esta clase modela un método toCamelCase(), el cual convierte Strings tipo ("ejemplo-ejemplo_Ejemplo") a un String tipo ("ejemploEjemploEjemplo"), teniendo en cuanta el primer caracter del String dado, devolver ese caracter como viene dado en el parámetro y convertir el resto de caracteres tras los simbolos ("-" y "_") en mayúsculas para tener el efecto camel case.
+- Esta clase modela un método toCamelCase(), el cual convierte Strings tipo ("ejemplo-ejemplo_Ejemplo") a un String tipo ("ejemploEjemploEjemplo"), teniendo en cuanta el primer caracter del String dado, devolver ese caracter como viene dado en el parámetro y convertir el resto de caracteres tras los símbolos ("-" y "_") en mayúsculas para tener el efecto camel case.
 
 
 
